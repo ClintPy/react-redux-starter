@@ -6,12 +6,12 @@ import Form from "./Form";
 
 const App = () => (
   <>
-    <div>
-      <h2>Articles</h2>
+    <div className="container center">
+      <h2 className="blue-text">Articles</h2>
       <List />
     </div>
-    <div>
-      <h2>Add a new article</h2>
+    <div className="container center">
+      <h5 className="blue-text">Add a new article</h5>
       <Form />
     </div>
   </>

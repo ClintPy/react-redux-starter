@@ -8,9 +8,9 @@ const mapStateToProps = state => {
 }
 
 const ConnectedList = ({ articles }) => (
-    <ul>
+    <ul className="collection">
         {articles.map(el => (
-            <li key={el.id}>{el.title}</li>
+            <li className="collection-item" key={el.id}>{el.title}</li>
         ))}
     </ul>
 )
