@@ -3,6 +3,7 @@
 import React from "react";
 import List from "./List";
 import Form from "./Form";
+import Post from "./Posts";
 
 const App = () => (
   <>
@@ -13,6 +14,10 @@ const App = () => (
     <div className="container center">
       <h5 className="blue-text">Add a new article</h5>
       <Form />
+    </div>
+    <div>
+      <h2>API posts</h2>
+      <Post />
     </div>
   </>
 );

@@ -6,8 +6,9 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-redux": "^7.1.3",
-    "react-scripts": "3.2.0",
-    "redux": "^4.0.4"
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.4",
+    "regexpu-core": "^4.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,5 +24,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "redux-thunk": "^2.3.0"
+  }
 }

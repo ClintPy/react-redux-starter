@@ -1,8 +1,7 @@
-// src/js/components/Form.js
-
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import addArticle from "../actions";
+
+import {addArticle} from "../actions";
 
 const mapDispatchToProps = dispatch => {
   return {
