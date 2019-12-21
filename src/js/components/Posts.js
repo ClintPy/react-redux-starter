@@ -15,9 +15,9 @@ class Post extends Component {
   render() {
     return (
       <>
-        <ul>
+        <ul className="collection">
           {this.props.articles.map(el => (
-            <li key={el.id}>{el.title}</li>
+            <li className="collection-item" key={el.id}>{el.title}</li>
           ))}
         </ul>
       </>
